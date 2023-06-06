@@ -102,6 +102,13 @@ div > button{
     width: 200px;
     margin-top: 50px;
 }
+
+/* .imagem_cachorro {
+    border: 10px solid red;
+    display: flex;
+    flex-direction: row;
+} */
+
 .terceira_img {
     border: 10px solid rebeccapurple;
  

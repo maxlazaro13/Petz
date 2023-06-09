@@ -102,3 +102,52 @@ div>button {
     display: flex;
     margin-top: 55px;
 }
+
+.section {
+    border: 2px solid violet;
+}
+
+
+.main_imgs {
+    border: 3px solid blue;
+}
+
+.bloco_imagem {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    background: #FF9F3026;
+    
+    
+}
+
+.subtitulo_menu {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.menu_imagem {
+    /* border: 2px solid rgb(0, 255, 21); */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 95px;
+}
+.img_1 {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 260px;
+   
+}
+
+.img_2 {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 260px;
+}

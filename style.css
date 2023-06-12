@@ -109,27 +109,29 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-
-}
-
-.foto1 {
-    width: 180px;
-}
-
-.foto2 {
-    width: 180px;
 }
 
 .isoladas {
     /* border: solid black; */
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 40px;
+}
+
+
+.foto1 {
+    /* border: 1px solid red;  */
+}
+
+.foto2 {
+    /* border: 1px solid blue; */
 }
 
 .foto {
-    display: flex;
+    display: flex; 
     margin-top: 20px;
+    position: relative;
+    right: 50px; 
 }
 
 .lista_perfil_petz {
@@ -217,11 +219,11 @@ p {
 
 }
 
-.foto1 {
+ .foto3 {
     width: 130px;
 }
 
-.foto2 {
+.foto4 {
     width: 200px;
 }
 
@@ -377,7 +379,11 @@ footer {
     right: 60px;
     margin-top: -12px;
     height: 28px;
-
+   
 }
+
+
+
+
 
 

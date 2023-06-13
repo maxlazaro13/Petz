@@ -384,6 +384,300 @@ footer {
 
 
 
+@media (max-width: 600px)
+{
+    header {
+        justify-content: space-between;
+        padding: 28px 20px;
+    }
+    
+    .header_cabecalho {
+        right: 0px;
+    }
+    
+    .header_cabecalho > img {
+        width: 110px;
+    }
+
+    .links > a {
+        font-size: .8rem;
+    }
+    
+    section {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 0px;
+        width: 100%;
+    }
+    
+    .menu_petz {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        align-items: center;
+        gap: 60px;
+    }
+    
+    h1 {
+        right: 0px;
+        font-size: 1.5rem;
+    }
+    
+    p {
+        right: 0px;
+        font-size: 1rem;
+        width: 100%;    
+    }
+    
+    .botao {
+        right: 0px;
+    }
+    
+    .menu_fotos {
+        padding: 0 20px;
+        flex-direction: row;
+    }
+
+    .menu_fotos > .isoladas {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        gap:10px;
+    }
+
+    .foto2{
+        border-radius: 10px ;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: -46px;
+    }
+
+    .isoladas {
+        /* border: solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+    
+    .foto {
+        display: flex; 
+        position: relative;
+        right: 0px; 
+    }
+
+    .foto > .isolada > img {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .lista_perfil_petz {
+        margin-top: 50px;
+    }
+    
+    .titulo {
+        font-size: 1rem;
+    }
+    
+    .encontrar_pet {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .plataforma_informacoes {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    
+    .titulo_3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+    
+    h3 {
+        position: relative;
+        right: 0px;
+        font-size: 1.5rem;
+    }
+
+    .aplicativo_de_ajuda{
+        /* border: 3px solid greenyellow; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    .informacoes_aplicativo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0px;
+        gap: 70px;
+        margin-top: 40px;
+    }
+
+    .informacoes_aplicativo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0px;
+        gap: 70px;
+        margin-top: 40px;
+    }
+
+    .conatos_informacoes {
+        background: #FF9F3026;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    h4 {
+        font-size: 1.5rem;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .informacoes_contatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .titulo_enderco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .p1 {
+        /* border: 1px solid red; */
+        display: flex;
+        position: relative;
+        right: 0px;
+        font-size: 1rem;
+    }
+    
+    .caixa_1 {
+        display: flex;
+        height: 30px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px #4E4B5926;
+    }
+    
+
+    .p2 {
+        margin-top: 0px;
+        display: flex;
+        position: relative;
+        right: 0px;
+        font-size: 1rem;
+    }
+
+    .caixa_2 {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px #4E4B5926;
+    }
+
+    .button button {
+        border: 1px solid orchid;
+        display: flex;
+        width: 200px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+    footer {
+        /* border: 5px solid rgb(7, 87, 0); */
+        display: flex;
+        flex-direction: column;
+        background: #0088AE;
+        height: auto;
+        padding: 5px 20px;
+        gap: 30px
+    }
+    
+    .roda_pe {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        align-items: center;
+        margin-top: 0px;
+        
+    }
+    
+    .logo_rodape {
+        display: flex;
+       max-width: 160px;
+    }
+    
+    .paragrafo1 {
+        display: flex;
+        position: relative;
+        width: 100%;
+        right: 0px;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    .paragrafo2 {
+        /* border: 1px solid rgb(22, 22, 22); */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        color: white;
+        margin-top: auto; 
+        align-items: center;
+
+    }
+    
+    .img {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        margin-top: 0px;
+        height: 20px;
+        /* border: 2px solid limegreen; */
+        align-items: center;
+    }
+
+    .img > img {
+        /* border: 1px solid red; */
+        width: 100px;
+        /* height: 20px; */
+
+    }
+}
+
+
+
 
 
 
